@@ -54,7 +54,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="object" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="EAHyBwI7hc" resolve="IObject" />
+      <ref role="20lvS9" node="EAHyBwI7hc" resolve="IJsonObject" />
     </node>
   </node>
   <node concept="1TIwiD" id="EAHyBwHVDo">
@@ -67,25 +67,13 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="members" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="EAHyBwI7gP" resolve="Member" />
+      <ref role="20lvS9" node="EAHyBwI7gS" resolve="Pair" />
     </node>
     <node concept="PrWs8" id="EAHyBwI7hd" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hc" resolve="IObject" />
+      <ref role="PrY4T" node="EAHyBwI7hc" resolve="IJsonObject" />
     </node>
     <node concept="PrWs8" id="EAHyBwI7Bw" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IValue" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="EAHyBwI7gP">
-    <property role="EcuMT" value="767501077493347381" />
-    <property role="TrG5h" value="Member" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="EAHyBwI7gT" role="1TKVEi">
-      <property role="IQ2ns" value="767501077493347385" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="pair" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="EAHyBwI7gS" resolve="Pair" />
+      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IJSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="EAHyBwI7gS">
@@ -104,7 +92,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="EAHyBwI7hh" resolve="IValue" />
+      <ref role="20lvS9" node="EAHyBwI7hh" resolve="IJSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="EAHyBwI7h1">
@@ -120,10 +108,10 @@
       <ref role="20lvS9" node="EAHyBwI7h4" resolve="Element" />
     </node>
     <node concept="PrWs8" id="EAHyBwI7hf" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hc" resolve="IObject" />
+      <ref role="PrY4T" node="EAHyBwI7hc" resolve="IJsonObject" />
     </node>
     <node concept="PrWs8" id="EAHyBwI7hn" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IValue" />
+      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IJSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="EAHyBwI7h4">
@@ -134,60 +122,60 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="EAHyBwI7hh" resolve="IValue" />
+      <ref role="20lvS9" node="EAHyBwI7hh" resolve="IJSONValue" />
     </node>
   </node>
   <node concept="PlHQZ" id="EAHyBwI7hc">
     <property role="EcuMT" value="767501077493347404" />
-    <property role="TrG5h" value="IObject" />
+    <property role="TrG5h" value="IJsonObject" />
   </node>
   <node concept="PlHQZ" id="EAHyBwI7hh">
     <property role="EcuMT" value="767501077493347409" />
-    <property role="TrG5h" value="IValue" />
+    <property role="TrG5h" value="IJSONValue" />
   </node>
   <node concept="1TIwiD" id="EAHyBwI7B$">
     <property role="EcuMT" value="767501077493348836" />
     <property role="TrG5h" value="String" />
-    <property role="3GE5qa" value="types" />
+    <property role="3GE5qa" value="values" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="EAHyBwI7B_" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IValue" />
+      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IJSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="EAHyBwI7BB">
     <property role="EcuMT" value="767501077493348839" />
-    <property role="3GE5qa" value="types" />
+    <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="Number" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="EAHyBwI7BJ" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IValue" />
+      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IJSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="EAHyBwI7BC">
     <property role="EcuMT" value="767501077493348840" />
-    <property role="3GE5qa" value="types" />
+    <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="Null" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="EAHyBwI7BH" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IValue" />
+      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IJSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="EAHyBwI7BD">
     <property role="EcuMT" value="767501077493348841" />
-    <property role="3GE5qa" value="types" />
+    <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="True" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="EAHyBwI7BL" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IValue" />
+      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IJSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="EAHyBwI7BE">
     <property role="EcuMT" value="767501077493348842" />
-    <property role="3GE5qa" value="types" />
+    <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="False" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="EAHyBwI7BF" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IValue" />
+      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IJSONValue" />
     </node>
   </node>
 </model>
