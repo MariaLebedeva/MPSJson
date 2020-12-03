@@ -243,7 +243,7 @@
   </node>
   <node concept="24kQdi" id="1Ly2mSnLPJ9">
     <property role="3GE5qa" value="values" />
-    <ref role="1XX52x" to="gvd1:EAHyBwI7BB" resolve="Number" />
+    <ref role="1XX52x" to="gvd1:EAHyBwI7BB" resolve="Int" />
     <node concept="3F0A7n" id="1Ly2mSnLPJe" role="2wV5jI">
       <ref role="1NtTu8" to="gvd1:1Ly2mSnLPIH" resolve="value" />
       <ref role="1k5W1q" node="1Ly2mSnMC0G" resolve="Number_color" />
@@ -275,6 +275,14 @@
       <node concept="VechU" id="1Ly2mSnMHAY" role="3F10Kt">
         <property role="Vb096" value="g1_eI4o/darkBlue" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1xzM6qWVjmH">
+    <property role="3GE5qa" value="values" />
+    <ref role="1XX52x" to="gvd1:1xzM6qWVjme" resolve="FloatingPointNumber" />
+    <node concept="3F0A7n" id="1xzM6qWVjmM" role="2wV5jI">
+      <ref role="1NtTu8" to="gvd1:1xzM6qWVjmf" resolve="value" />
+      <ref role="1k5W1q" node="1Ly2mSnMC0G" resolve="Number_color" />
     </node>
   </node>
 </model>

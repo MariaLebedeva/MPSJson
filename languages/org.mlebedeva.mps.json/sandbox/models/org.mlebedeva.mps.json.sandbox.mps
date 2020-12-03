@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="f32d4f98-b082-42d6-b2bc-38b1d1759a7d" name="org.mlebedeva.mps.json">
+      <concept id="1757468623186507150" name="org.mlebedeva.mps.json.structure.FloatingPointNumber" flags="ng" index="2$zJRC">
+        <property id="1757468623186507151" name="value" index="2$zJRD" />
+      </concept>
       <concept id="767501077493299800" name="org.mlebedeva.mps.json.structure.Object" flags="ng" index="3E4gLL">
         <child id="767501077493347382" name="members" index="3E7G8v" />
       </concept>
@@ -28,7 +31,7 @@
       <concept id="767501077493348836" name="org.mlebedeva.mps.json.structure.StringLiteral" flags="ng" index="3E7GZd">
         <property id="2295809888294195517" name="value" index="3whCJg" />
       </concept>
-      <concept id="767501077493348839" name="org.mlebedeva.mps.json.structure.Number" flags="ng" index="3E7GZe">
+      <concept id="767501077493348839" name="org.mlebedeva.mps.json.structure.Int" flags="ng" index="3E7GZe">
         <property id="2045207549229620141" name="value" index="bDlb3" />
       </concept>
     </language>
@@ -59,6 +62,14 @@
         </node>
         <node concept="3E7GZe" id="1Ly2mSnM1ms" role="3E7G8k">
           <property role="bDlb3" value="239" />
+        </node>
+      </node>
+      <node concept="3E7G8h" id="1xzM6qWVJtG" role="3E7G8v">
+        <node concept="3E7GZd" id="1xzM6qWVJtH" role="3E7S2m">
+          <property role="3whCJg" value="float number" />
+        </node>
+        <node concept="2$zJRC" id="1xzM6qWVJud" role="3E7G8k">
+          <property role="2$zJRD" value="1.2E-4" />
         </node>
       </node>
       <node concept="3E7G8h" id="1Ly2mSnM1mR" role="3E7G8v">
