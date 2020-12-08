@@ -68,8 +68,8 @@
         <node concept="3E7GZd" id="1xzM6qWVJtH" role="3E7S2m">
           <property role="3whCJg" value="float number" />
         </node>
-        <node concept="2$zJRC" id="1xzM6qWVJud" role="3E7G8k">
-          <property role="2$zJRD" value="1.2E-4" />
+        <node concept="2$zJRC" id="1xzM6qWW2oW" role="3E7G8k">
+          <property role="2$zJRD" value="1.7" />
         </node>
       </node>
       <node concept="3E7G8h" id="1Ly2mSnM1mR" role="3E7G8v">
