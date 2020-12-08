@@ -194,7 +194,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3JtaRw2lMSY">
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="values.bool" />
     <ref role="1XX52x" to="gvd1:EAHyBwI7BE" resolve="False" />
     <node concept="3F0ifn" id="3JtaRw2lMT0" role="2wV5jI">
       <property role="3F0ifm" value="false" />
@@ -202,7 +202,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1ZsmIRZAFgK">
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="values.bool" />
     <ref role="1XX52x" to="gvd1:EAHyBwI7BD" resolve="True" />
     <node concept="3F0ifn" id="1ZsmIRZAFgM" role="2wV5jI">
       <property role="3F0ifm" value="true" />
@@ -242,7 +242,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1Ly2mSnLPJ9">
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="values.nums" />
     <ref role="1XX52x" to="gvd1:EAHyBwI7BB" resolve="Int" />
     <node concept="3F0A7n" id="1Ly2mSnLPJe" role="2wV5jI">
       <ref role="1NtTu8" to="gvd1:1Ly2mSnLPIH" resolve="value" />
@@ -278,7 +278,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1xzM6qWVjmH">
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="values.nums" />
     <ref role="1XX52x" to="gvd1:1xzM6qWVjme" resolve="FloatingPointNumber" />
     <node concept="3F0A7n" id="1xzM6qWVjmM" role="2wV5jI">
       <ref role="1NtTu8" to="gvd1:1xzM6qWVjmf" resolve="value" />

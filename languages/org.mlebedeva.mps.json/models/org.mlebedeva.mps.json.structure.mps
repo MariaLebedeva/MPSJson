@@ -161,7 +161,7 @@
   </node>
   <node concept="1TIwiD" id="EAHyBwI7BB">
     <property role="EcuMT" value="767501077493348839" />
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="values.nums" />
     <property role="TrG5h" value="Int" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="EAHyBwI7BJ" role="PzmwI">
@@ -185,7 +185,7 @@
   </node>
   <node concept="1TIwiD" id="EAHyBwI7BD">
     <property role="EcuMT" value="767501077493348841" />
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="values.bool" />
     <property role="TrG5h" value="True" />
     <property role="34LRSv" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -195,7 +195,7 @@
   </node>
   <node concept="1TIwiD" id="EAHyBwI7BE">
     <property role="EcuMT" value="767501077493348842" />
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="values.bool" />
     <property role="TrG5h" value="False" />
     <property role="34LRSv" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -205,13 +205,13 @@
   </node>
   <node concept="Az7Fb" id="1xzM6qWVhUO">
     <property role="3F6X1D" value="1757468623186501300" />
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="values.nums" />
     <property role="TrG5h" value="FloatDataType" />
     <property role="FLfZY" value="-?[0-9]+\\.[0-9]*([Ee][+-]?[0-9]+)?" />
   </node>
   <node concept="1TIwiD" id="1xzM6qWVjme">
     <property role="EcuMT" value="1757468623186507150" />
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="values.nums" />
     <property role="TrG5h" value="FloatingPointNumber" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1xzM6qWVjmf" role="1TKVEl">
