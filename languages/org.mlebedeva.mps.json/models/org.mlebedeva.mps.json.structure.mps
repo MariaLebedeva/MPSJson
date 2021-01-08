@@ -159,20 +159,6 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="EAHyBwI7BB">
-    <property role="EcuMT" value="767501077493348839" />
-    <property role="3GE5qa" value="values.nums" />
-    <property role="TrG5h" value="Int" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="EAHyBwI7BJ" role="PzmwI">
-      <ref role="PrY4T" node="EAHyBwI7hh" resolve="IJSONValue" />
-    </node>
-    <node concept="1TJgyi" id="1Ly2mSnLPIH" role="1TKVEl">
-      <property role="IQ2nx" value="2045207549229620141" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="EAHyBwI7BC">
     <property role="EcuMT" value="767501077493348840" />
     <property role="3GE5qa" value="values" />
@@ -206,18 +192,18 @@
   <node concept="Az7Fb" id="1xzM6qWVhUO">
     <property role="3F6X1D" value="1757468623186501300" />
     <property role="3GE5qa" value="values.nums" />
-    <property role="TrG5h" value="FloatDataType" />
+    <property role="TrG5h" value="NumberDataType" />
     <property role="FLfZY" value="-?[0-9]+(\\.[0-9]+([Ee][+-]?[0-9]+)?)?" />
   </node>
   <node concept="1TIwiD" id="1xzM6qWVjme">
     <property role="EcuMT" value="1757468623186507150" />
     <property role="3GE5qa" value="values.nums" />
-    <property role="TrG5h" value="FloatingPointNumber" />
+    <property role="TrG5h" value="Number" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1xzM6qWVjmf" role="1TKVEl">
       <property role="IQ2nx" value="1757468623186507151" />
       <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="1xzM6qWVhUO" resolve="FloatDataType" />
+      <ref role="AX2Wp" node="1xzM6qWVhUO" resolve="NumberDataType" />
     </node>
     <node concept="PrWs8" id="1xzM6qWVjmh" role="PzmwI">
       <ref role="PrY4T" node="EAHyBwI7hh" resolve="IJSONValue" />

@@ -241,14 +241,6 @@
       <ref role="1k5W1q" node="1Ly2mSnMHAP" resolve="BooleanAndNull_color" />
     </node>
   </node>
-  <node concept="24kQdi" id="1Ly2mSnLPJ9">
-    <property role="3GE5qa" value="values.nums" />
-    <ref role="1XX52x" to="gvd1:EAHyBwI7BB" resolve="Int" />
-    <node concept="3F0A7n" id="1Ly2mSnLPJe" role="2wV5jI">
-      <ref role="1NtTu8" to="gvd1:1Ly2mSnLPIH" resolve="value" />
-      <ref role="1k5W1q" node="1Ly2mSnMC0G" resolve="Number_color" />
-    </node>
-  </node>
   <node concept="V5hpn" id="1Ly2mSnMmBe">
     <property role="TrG5h" value="JSON_style" />
     <property role="3GE5qa" value="stylesheet" />
@@ -279,7 +271,7 @@
   </node>
   <node concept="24kQdi" id="1xzM6qWVjmH">
     <property role="3GE5qa" value="values.nums" />
-    <ref role="1XX52x" to="gvd1:1xzM6qWVjme" resolve="FloatingPointNumber" />
+    <ref role="1XX52x" to="gvd1:1xzM6qWVjme" resolve="Number" />
     <node concept="3F0A7n" id="1xzM6qWVjmM" role="2wV5jI">
       <ref role="1NtTu8" to="gvd1:1xzM6qWVjmf" resolve="value" />
       <ref role="1k5W1q" node="1Ly2mSnMC0G" resolve="Number_color" />

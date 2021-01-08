@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="gvd1" ref="r:971030bb-9586-43ba-bba8-39ff3fd7423b(org.mlebedeva.mps.json.structure)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -21,9 +20,6 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -40,10 +36,6 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
-      </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
-        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -321,7 +313,7 @@
   </node>
   <node concept="WtQ9Q" id="MWk2Kprmeh">
     <property role="3GE5qa" value="values.nums" />
-    <ref role="WuzLi" to="gvd1:1xzM6qWVjme" resolve="FloatingPointNumber" />
+    <ref role="WuzLi" to="gvd1:1xzM6qWVjme" resolve="Number" />
     <node concept="11bSqf" id="MWk2Kprmei" role="11c4hB">
       <node concept="3clFbS" id="MWk2Kprmej" role="2VODD2">
         <node concept="lc7rE" id="MWk2Kprme$" role="3cqZAp">
@@ -369,28 +361,6 @@
           </node>
           <node concept="la8eA" id="MWk2Kps6L3" role="lcghm">
             <property role="lacIc" value="&quot;" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="MWk2KprY6c">
-    <property role="3GE5qa" value="values.nums" />
-    <ref role="WuzLi" to="gvd1:EAHyBwI7BB" resolve="Int" />
-    <node concept="11bSqf" id="MWk2KprY6d" role="11c4hB">
-      <node concept="3clFbS" id="MWk2KprY6e" role="2VODD2">
-        <node concept="lc7rE" id="MWk2KprY6v" role="3cqZAp">
-          <node concept="l9hG8" id="MWk2KprY6N" role="lcghm">
-            <node concept="2YIFZM" id="MWk2KprYKj" role="lb14g">
-              <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-              <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
-              <node concept="2OqwBi" id="MWk2KprYXn" role="37wK5m">
-                <node concept="117lpO" id="MWk2KprYP7" role="2Oq$k0" />
-                <node concept="3TrcHB" id="MWk2KprYZa" role="2OqNvi">
-                  <ref role="3TsBF5" to="gvd1:1Ly2mSnLPIH" resolve="value" />
-                </node>
-              </node>
-            </node>
           </node>
         </node>
       </node>
