@@ -193,7 +193,7 @@
     <property role="3F6X1D" value="1757468623186501300" />
     <property role="3GE5qa" value="values.nums" />
     <property role="TrG5h" value="NumberDataType" />
-    <property role="FLfZY" value="-?[0-9]+(\\.[0-9]+([Ee][+-]?[0-9]+)?)?" />
+    <property role="FLfZY" value="-?[1-9][0-9]*(\\.[0-9]+([Ee][+-]?[0-9]+)?)?" />
   </node>
   <node concept="1TIwiD" id="1xzM6qWVjme">
     <property role="EcuMT" value="1757468623186507150" />
