@@ -7,7 +7,7 @@
   <imports />
   <registry>
     <language id="f32d4f98-b082-42d6-b2bc-38b1d1759a7d" name="org.mlebedeva.mps.json">
-      <concept id="1757468623186507150" name="org.mlebedeva.mps.json.structure.FloatingPointNumber" flags="ng" index="2$zJRC">
+      <concept id="1757468623186507150" name="org.mlebedeva.mps.json.structure.Number" flags="ng" index="2$zJRC">
         <property id="1757468623186507151" name="value" index="2$zJRD" />
       </concept>
       <concept id="767501077493299800" name="org.mlebedeva.mps.json.structure.Object" flags="ng" index="3E4gLL">
@@ -30,9 +30,6 @@
       <concept id="767501077493348842" name="org.mlebedeva.mps.json.structure.False" flags="ng" index="3E7GZ3" />
       <concept id="767501077493348836" name="org.mlebedeva.mps.json.structure.StringLiteral" flags="ng" index="3E7GZd">
         <property id="2295809888294195517" name="value" index="3whCJg" />
-      </concept>
-      <concept id="767501077493348839" name="org.mlebedeva.mps.json.structure.Int" flags="ng" index="3E7GZe">
-        <property id="2045207549229620141" name="value" index="bDlb3" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -60,8 +57,8 @@
         <node concept="3E7GZd" id="1Ly2mSnM1mh" role="3E7S2m">
           <property role="3whCJg" value="number" />
         </node>
-        <node concept="3E7GZe" id="1Ly2mSnM1ms" role="3E7G8k">
-          <property role="bDlb3" value="239" />
+        <node concept="2$zJRC" id="2Ce$_nzg$mh" role="3E7G8k">
+          <property role="2$zJRD" value="239" />
         </node>
       </node>
       <node concept="3E7G8h" id="1xzM6qWVJtG" role="3E7G8v">
@@ -109,8 +106,8 @@
             </node>
           </node>
           <node concept="3E7G9H" id="1Ly2mSnMdAR" role="3E7G9F">
-            <node concept="3E7GZe" id="1Ly2mSnMdAZ" role="3E7G9G">
-              <property role="bDlb3" value="777" />
+            <node concept="2$zJRC" id="2Ce$_nzg$mm" role="3E7G9G">
+              <property role="2$zJRD" value="777" />
             </node>
           </node>
         </node>
@@ -121,8 +118,8 @@
     <property role="TrG5h" value="Small_test" />
     <node concept="3E7G9C" id="1aCRW7ExtKe" role="3E4gLK">
       <node concept="3E7G9H" id="1aCRW7ExtKh" role="3E7G9F">
-        <node concept="3E7GZe" id="1aCRW7ExtKl" role="3E7G9G">
-          <property role="bDlb3" value="1" />
+        <node concept="2$zJRC" id="2Ce$_nzg$mr" role="3E7G9G">
+          <property role="2$zJRD" value="1" />
         </node>
       </node>
       <node concept="3E7G9H" id="1aCRW7ExtKo" role="3E7G9F">
