@@ -66,7 +66,7 @@
           <property role="3whCJg" value="qw" />
         </node>
         <node concept="2$zJRC" id="20gjnKmBvQg" role="3E7G8k">
-          <property role="2$zJRD" value="2.0E-6" />
+          <property role="2$zJRD" value="-4.7E+5" />
         </node>
       </node>
       <node concept="3E7G8h" id="1xzM6qWVJtG" role="3E7G8v">
@@ -111,6 +111,11 @@
           <node concept="3E7G9H" id="1Ly2mSnM1oJ" role="3E7G9F">
             <node concept="3E7GZd" id="1Ly2mSnM1oP" role="3E7G9G">
               <property role="3whCJg" value="two" />
+            </node>
+          </node>
+          <node concept="3E7G9H" id="20gjnKmC4T_" role="3E7G9F">
+            <node concept="3E7GZd" id="20gjnKmC4TJ" role="3E7G9G">
+              <property role="3whCJg" value="gm&quot;mm" />
             </node>
           </node>
           <node concept="3E7G9H" id="1Ly2mSnMdAR" role="3E7G9F">

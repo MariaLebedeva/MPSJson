@@ -28,6 +28,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
@@ -443,6 +444,52 @@
     <node concept="1YaCAy" id="MWk2KpsCGq" role="1YuTPh">
       <property role="TrG5h" value="obj" />
       <ref role="1YaFvo" to="gvd1:EAHyBwHVDo" resolve="Object" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="20gjnKmBSSo">
+    <property role="TrG5h" value="check_StringLiteral" />
+    <node concept="3clFbS" id="20gjnKmBSSp" role="18ibNy">
+      <node concept="3cpWs8" id="20gjnKmBSSU" role="3cqZAp">
+        <node concept="3cpWsn" id="20gjnKmBSSX" role="3cpWs9">
+          <property role="TrG5h" value="str" />
+          <node concept="17QB3L" id="20gjnKmBSST" role="1tU5fm" />
+          <node concept="2OqwBi" id="20gjnKmBT3Y" role="33vP2m">
+            <node concept="1YBJjd" id="20gjnKmBSTg" role="2Oq$k0">
+              <ref role="1YBMHb" node="20gjnKmBSSr" resolve="node" />
+            </node>
+            <node concept="3TrcHB" id="20gjnKmBTel" role="2OqNvi">
+              <ref role="3TsBF5" to="gvd1:1ZsmIRZAH4X" resolve="value" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="20gjnKmBVjP" role="3cqZAp">
+        <node concept="3clFbS" id="20gjnKmBVjR" role="3clFbx">
+          <node concept="2MkqsV" id="20gjnKmBVu1" role="3cqZAp">
+            <node concept="Xl_RD" id="20gjnKmBVTp" role="2MkJ7o">
+              <property role="Xl_RC" value="Double quote is not allowed in a string value" />
+            </node>
+            <node concept="1YBJjd" id="20gjnKmBVug" role="1urrMF">
+              <ref role="1YBMHb" node="20gjnKmBSSr" resolve="node" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="20gjnKmBUl4" role="3clFbw">
+          <node concept="liA8E" id="20gjnKmBU$v" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+            <node concept="Xl_RD" id="20gjnKmBV1H" role="37wK5m">
+              <property role="Xl_RC" value="\&quot;" />
+            </node>
+          </node>
+          <node concept="37vLTw" id="20gjnKmCEDC" role="2Oq$k0">
+            <ref role="3cqZAo" node="20gjnKmBSSX" resolve="str" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="20gjnKmBSSr" role="1YuTPh">
+      <property role="TrG5h" value="node" />
+      <ref role="1YaFvo" to="gvd1:EAHyBwI7B$" resolve="StringLiteral" />
     </node>
   </node>
 </model>
